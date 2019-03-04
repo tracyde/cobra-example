@@ -1,0 +1,11 @@
+language: go
+
+go:
+- tip # The latest version of Go.
+
+script:
+  - "./build.sh"
+
+notifications:
+    email:
+        on_failure: always
