@@ -13,6 +13,7 @@ do
 
     if [ $GOOS = "windows" ]; then
         output_name+='.exe'
+        GOOS=windows go get -u github.com/spf13/cobra
     fi
 
     env GOOS=$GOOS GOARCH=$GOARCH go build -o $output_name
