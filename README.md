@@ -1,5 +1,7 @@
 # cobra-example
 
+[![Build Status](https://travis-ci.org/tracyde/cobra-example.svg?branch=master)](https://travis-ci.org/tracyde/cobra-example)
+
 Example golang application showing others how to use the cobra library
 
 ```bash
